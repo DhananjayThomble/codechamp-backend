@@ -15,6 +15,26 @@ const authenticateUser = require("../middlewares/authenticate");
 const upload = require("../middlewares/multerConfig");
 const authorizeUser = require("../middlewares/authorizeUser");
 
+/**
+ * @swagger
+ * /api/users/register:
+ *   post:
+ *     summary: Register a new user
+ *     tags: [Users]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             $ref: '#/components/schemas/UserRegister'
+ *     responses:
+ *       201:
+ *         description: User registered successfully
+ *       400:
+ *        description: Bad request
+ *       500:
+ *        description: Internal server error
+ */
 router.post("/register", register);
 
 router.post("/login", login);

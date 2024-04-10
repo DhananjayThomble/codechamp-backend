@@ -39,6 +39,24 @@ app.use("/api/users", userRouter);
 app.use("/api/courses", courseRouter);
 app.use("/api/enrollments", enrollmentRouter);
 
+const swaggerJsDoc = require("swagger-jsdoc");
+const swaggerUi = require("swagger-ui-express");
+
+const swaggerOptions = {
+  definition: {
+    openapi: "3.0.0",
+    info: {
+      title: "My E Learning API",
+      version: "1.0.0",
+      description: "An API for an e-learning platform",
+    },
+  },
+  apis: ["./routes/*.js", "./schemas/*.js"],
+};
+
+const swaggerDocs = swaggerJsDoc(swaggerOptions);
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+
 app.listen(PORT, async () => {
   try {
     await prisma.$connect();
