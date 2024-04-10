@@ -14,6 +14,15 @@ const {
 const authenticateUser = require("../middlewares/authenticate");
 const upload = require("../middlewares/multerConfig");
 const authorizeUser = require("../middlewares/authorizeUser");
+const validationErrorHandler = require("../middlewares/validatorErrorHandler");
+const {
+  registerValidator,
+  loginValidator,
+  resetPasswordValidator,
+  updatePasswordValidator,
+  updateProfileValidator,
+  registerSuperAdminValidator,
+} = require("../validators/userValidators");
 
 /**
  * @swagger
@@ -35,17 +44,33 @@ const authorizeUser = require("../middlewares/authorizeUser");
  *       500:
  *        description: Internal server error
  */
-router.post("/register", register);
+router.post("/register", registerValidator, validationErrorHandler, register);
 
-router.post("/login", login);
+router.post("/login", loginValidator, validationErrorHandler, login);
 
-router.post("/reset-password", resetPassword);
+router.post(
+  "/reset-password",
+  resetPasswordValidator,
+  validationErrorHandler,
+  resetPassword
+);
 
-router.put("/update-password", updatePassword);
+router.put(
+  "/update-password",
+  updatePasswordValidator,
+  validationErrorHandler,
+  updatePassword
+);
 
 router.get("/profile", authenticateUser, profile);
 
-router.put("/profile", authenticateUser, updateProfile);
+router.put(
+  "/profile",
+  updateProfileValidator,
+  validationErrorHandler,
+  authenticateUser,
+  updateProfile
+);
 
 router.put(
   "/profile-picture",
@@ -57,6 +82,8 @@ router.put(
 // for admin
 router.post(
   "/register-superadmin",
+  registerSuperAdminValidator,
+  validationErrorHandler,
   authenticateUser,
   authorizeUser(["SUPERADMIN"]),
   registerSuperAdmin

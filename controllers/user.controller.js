@@ -256,15 +256,16 @@ const updateProfile = async (req, res) => {
       return res.status(404).json({ error: "User not found" });
     }
 
+    const updateData = {};
+    if (name !== undefined) updateData.name = name;
+    if (email !== undefined) updateData.email = email;
+    if (mobile !== undefined) updateData.mobile = mobile;
+
     const updatedUser = await prisma.user.update({
       where: {
         id: userId,
       },
-      data: {
-        name,
-        email,
-        mobile,
-      },
+      data: updateData,
       select: {
         id: true,
         name: true,
