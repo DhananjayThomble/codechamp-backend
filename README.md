@@ -1,7 +1,8 @@
-NodeJs Backend Developer Project
+# NodeJs Backend Developer Project
 
 The goal of this project is to develop a robust backend API for an e-learning platform. The API will facilitate user registration, user profile management, course management (including CRUD operations for superadmin), and user enrollment functionalities. Additionally, the courses API will implement filtering and pagination to enhance user experience. The project will utilize the free tier of neon.tech database for data storage and resend.com's free tier for handling email communications.
-Project Requirements:
+
+## Project Requirements:
     1. User APIs: 
         ○ User Registration: Allow users to register by providing necessary details such as name, email, and password. Implement validation for email uniqueness and password strength.
         ○ User Profile: Enable users to view and update their profile information, including name, email, profile picture, and any other relevant details.
