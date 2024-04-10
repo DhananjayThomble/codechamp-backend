@@ -27,9 +27,9 @@ if (process.env.NODE_ENV === "production") {
   };
 }
 
-app.get("/", (req, res) => {
-  res.send("Hello from / route");
-});
+// app.get("/", (req, res) => {
+//   res.send("Hello from / route");
+// });
 
 const userRouter = require("./routes/user.route");
 const courseRouter = require("./routes/course.route");
@@ -55,7 +55,7 @@ const swaggerOptions = {
 };
 
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+app.use("/", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 app.listen(PORT, async () => {
   try {
