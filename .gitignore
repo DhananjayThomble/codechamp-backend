@@ -1,0 +1,11 @@
+node_modules
+package-lock.json
+.env
+# for prisma
+prisma/.env
+prisma/.env.development
+prisma/.env.production
+prisma/.env.test
+prisma/migrations
+
+uploads/

@@ -1,0 +1,230 @@
+{"level":"info","message":"Connected to the database","service":"user-service","timestamp":"2024-04-06 15:12:18"}
+{"level":"info","message":"Server is running on port ","service":"user-service","timestamp":"2024-04-06 15:12:18"}
+{"level":"info","message":"Received POST request for /api/users/login","service":"user-service","timestamp":"2024-04-06 15:12:59"}
+{"level":"info","message":"Response sent with status code 200","service":"user-service","timestamp":"2024-04-06 15:13:00"}
+{"level":"info","message":"Connected to the database","service":"user-service","timestamp":"2024-04-06 15:17:10"}
+{"level":"info","message":"Server is running on port ","service":"user-service","timestamp":"2024-04-06 15:17:10"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-06 15:18:28"}
+{"level":"info","message":"Server is running on port ","timestamp":"2024-04-06 15:18:28"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-06 15:19:15"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-06 15:19:15"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-08 20:45:11"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-08 20:45:11"}
+{"level":"info","message":"Received GET request for /api/courses/","timestamp":"2024-04-08 20:45:11"}
+{"level":"error","message":"Error from get courses controller","timestamp":"2024-04-08 20:45:12"}
+{"level":"info","message":"Response sent with status code 500 in 1330ms","timestamp":"2024-04-08 20:45:12"}
+{"level":"info","message":"Received GET request for /api/courses/","timestamp":"2024-04-08 20:45:38"}
+{"level":"info","message":"Response sent with status code 500 in 1704ms","timestamp":"2024-04-08 20:45:40"}
+{"level":"info","message":"Received GET request for /api/courses/?limit=10&skip=0","timestamp":"2024-04-08 20:46:50"}
+{"level":"info","message":"Response sent with status code 200 in 742ms","timestamp":"2024-04-08 20:46:50"}
+{"level":"info","message":"Received GET request for /api/courses/?limit=10&skip=0","timestamp":"2024-04-08 20:47:00"}
+{"level":"info","message":"Response sent with status code 200 in 2179ms","timestamp":"2024-04-08 20:47:03"}
+{"level":"info","message":"Received GET request for /api/courses/","timestamp":"2024-04-08 20:48:06"}
+{"level":"info","message":"Response sent with status code 200 in 1019ms","timestamp":"2024-04-08 20:48:07"}
+{"body":"{\r\n    \"title\": \"let us c\",\r\n}","expose":true,"level":"error","message":"Expected double-quoted property name in JSON at position 29 (line 3 column 1) Expected double-quoted property name in JSON at position 29 (line 3 column 1)","stack":"SyntaxError: Expected double-quoted property name in JSON at position 29 (line 3 column 1)\n    at JSON.parse (<anonymous>)\n    at parse (I:\\js\\codechamp-backend\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at I:\\js\\codechamp-backend\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (I:\\js\\codechamp-backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (I:\\js\\codechamp-backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (I:\\js\\codechamp-backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:515:28)\n    at endReadableNT (node:internal/streams/readable:1589:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","status":400,"statusCode":400,"timestamp":"2024-04-08 20:50:41","type":"entity.parse.failed"}
+{"body":"{\r\n    \"title\": \"let us c\",\r\n}","expose":true,"level":"error","message":"Expected double-quoted property name in JSON at position 29 (line 3 column 1) Expected double-quoted property name in JSON at position 29 (line 3 column 1)","stack":"SyntaxError: Expected double-quoted property name in JSON at position 29 (line 3 column 1)\n    at JSON.parse (<anonymous>)\n    at parse (I:\\js\\codechamp-backend\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at I:\\js\\codechamp-backend\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (I:\\js\\codechamp-backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (I:\\js\\codechamp-backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (I:\\js\\codechamp-backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:515:28)\n    at endReadableNT (node:internal/streams/readable:1589:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","status":400,"statusCode":400,"timestamp":"2024-04-08 20:50:58","type":"entity.parse.failed"}
+{"level":"info","message":"Received POST request for /api/courses/","timestamp":"2024-04-08 20:51:01"}
+{"level":"info","message":"Response sent with status code 403 in 3ms","timestamp":"2024-04-08 20:51:01"}
+{"level":"info","message":"Received POST request for /api/users/login","timestamp":"2024-04-08 20:51:14"}
+{"level":"info","message":"Response sent with status code 200 in 1254ms","timestamp":"2024-04-08 20:51:15"}
+{"level":"info","message":"Received POST request for /api/courses/","timestamp":"2024-04-08 20:51:40"}
+{"level":"info","message":"Response sent with status code 403 in 3ms","timestamp":"2024-04-08 20:51:40"}
+{"level":"info","message":"Received POST request for /api/courses/","timestamp":"2024-04-08 20:51:55"}
+{"level":"info","message":"Response sent with status code 403 in 1ms","timestamp":"2024-04-08 20:51:55"}
+{"level":"info","message":"Received POST request for /api/courses/","timestamp":"2024-04-08 20:55:30"}
+{"level":"info","message":"Response sent with status code 403 in 102ms","timestamp":"2024-04-08 20:55:30"}
+{"level":"info","message":"Received POST request for /api/courses/","timestamp":"2024-04-08 20:57:08"}
+{"level":"info","message":"Response sent with status code 400 in 19ms","timestamp":"2024-04-08 20:57:08"}
+{"level":"info","message":"Received POST request for /api/courses/","timestamp":"2024-04-08 20:57:21"}
+{"level":"info","message":"Response sent with status code 201 in 957ms","timestamp":"2024-04-08 20:57:22"}
+{"level":"info","message":"Received GET request for /api/courses/","timestamp":"2024-04-08 20:57:28"}
+{"level":"info","message":"Response sent with status code 200 in 504ms","timestamp":"2024-04-08 20:57:28"}
+{"level":"info","message":"Received GET request for /api/courses/","timestamp":"2024-04-08 21:57:29"}
+{"level":"info","message":"Response sent with status code 200 in 3614ms","timestamp":"2024-04-08 21:57:33"}
+{"level":"info","message":"Received PUT request for /api/courses/?id=clur3w65q00003rtz2g8oasun","timestamp":"2024-04-08 21:57:47"}
+{"level":"info","message":"Response sent with status code 404 in 2ms","timestamp":"2024-04-08 21:57:47"}
+{"level":"info","message":"Received PUT request for /api/courses?id=clur3w65q00003rtz2g8oasun","timestamp":"2024-04-08 21:58:24"}
+{"level":"info","message":"Response sent with status code 404 in 2ms","timestamp":"2024-04-08 21:58:24"}
+{"level":"info","message":"Received PUT request for /api/courses/clur3w65q00003rtz2g8oasun","timestamp":"2024-04-08 21:59:00"}
+{"level":"info","message":"Response sent with status code 400 in 3ms","timestamp":"2024-04-08 21:59:00"}
+{"level":"info","message":"Received PUT request for /api/courses/","timestamp":"2024-04-08 22:00:23"}
+{"level":"info","message":"Response sent with status code 404 in 17ms","timestamp":"2024-04-08 22:00:23"}
+{"level":"info","message":"Received PUT request for /api/courses","timestamp":"2024-04-08 22:00:27"}
+{"level":"info","message":"Response sent with status code 404 in 3ms","timestamp":"2024-04-08 22:00:27"}
+{"level":"info","message":"Received PUT request for /api/courses/:id","timestamp":"2024-04-08 22:00:34"}
+{"level":"info","message":"Response sent with status code 500 in 2394ms","timestamp":"2024-04-08 22:00:36"}
+{"level":"info","message":"Received PUT request for /api/courses/:id","timestamp":"2024-04-08 22:01:07"}
+{"level":"info","message":"Response sent with status code 500 in 1032ms","timestamp":"2024-04-08 22:01:08"}
+{"level":"info","message":"Received PUT request for /api/courses/:id","timestamp":"2024-04-08 22:02:45"}
+{"level":"info","message":"Response sent with status code 500 in 31ms","timestamp":"2024-04-08 22:02:45"}
+{"level":"info","message":"Received PUT request for /api/courses/:id","timestamp":"2024-04-08 22:03:07"}
+{"level":"info","message":"Response sent with status code 500 in 35ms","timestamp":"2024-04-08 22:03:07"}
+{"level":"info","message":"Received PUT request for /api/courses/","timestamp":"2024-04-08 22:03:15"}
+{"level":"info","message":"Response sent with status code 404 in 5ms","timestamp":"2024-04-08 22:03:15"}
+{"level":"info","message":"Received PUT request for /api/courses/clur3w65q00003rtz2g8oasun","timestamp":"2024-04-08 22:04:08"}
+{"level":"info","message":"Response sent with status code 200 in 2223ms","timestamp":"2024-04-08 22:04:10"}
+{"level":"info","message":"Received PUT request for /api/courses/clur3w65q00003rtz2g8oasun","timestamp":"2024-04-08 22:04:29"}
+{"level":"info","message":"Response sent with status code 500 in 273ms","timestamp":"2024-04-08 22:04:29"}
+{"level":"info","message":"Received PUT request for /api/courses/clur3w65q00003rtz2g8oasun","timestamp":"2024-04-08 22:04:46"}
+{"level":"info","message":"Response sent with status code 200 in 1041ms","timestamp":"2024-04-08 22:04:47"}
+{"level":"info","message":"Received GET request for /api/courses/","timestamp":"2024-04-08 22:04:51"}
+{"level":"info","message":"Response sent with status code 200 in 566ms","timestamp":"2024-04-08 22:04:52"}
+{"level":"info","message":"Received DELETE request for /api/courses/clur3w65q00003rtz2g8oasun","timestamp":"2024-04-08 22:06:10"}
+{"level":"info","message":"Response sent with status code 200 in 2850ms","timestamp":"2024-04-08 22:06:13"}
+{"level":"info","message":"Received GET request for /api/courses/","timestamp":"2024-04-08 22:06:32"}
+{"level":"info","message":"Response sent with status code 200 in 1302ms","timestamp":"2024-04-08 22:06:33"}
+{"level":"info","message":"Received DELETE request for /api/courses/clur3w65q00003rtz2g8oasun","timestamp":"2024-04-08 22:06:37"}
+{"level":"info","message":"Response sent with status code 500 in 309ms","timestamp":"2024-04-08 22:06:38"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 17:55:16"}
+{"level":"info","message":"Response sent with status code 500 in 17ms","timestamp":"2024-04-09 17:55:16"}
+{"level":"info","message":"Received POST request for /api/users/login","timestamp":"2024-04-09 17:56:09"}
+{"level":"info","message":"Response sent with status code 200 in 1234ms","timestamp":"2024-04-09 17:56:10"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 17:57:24"}
+{"level":"info","message":"Response sent with status code 500 in 18ms","timestamp":"2024-04-09 17:57:24"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 17:57:57"}
+{"level":"info","message":"Response sent with status code 500 in 25ms","timestamp":"2024-04-09 17:57:57"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 17:58:07"}
+{"level":"info","message":"Response sent with status code 500 in 9ms","timestamp":"2024-04-09 17:58:07"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:06:16"}
+{"level":"info","message":"Response sent with status code 500 in 26ms","timestamp":"2024-04-09 21:06:16"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:07:03"}
+{"level":"info","message":"Response sent with status code 500 in 18ms","timestamp":"2024-04-09 21:07:03"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:07:05"}
+{"level":"info","message":"Response sent with status code 500 in 10ms","timestamp":"2024-04-09 21:07:05"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:07:24"}
+{"level":"info","message":"Response sent with status code 500 in 23ms","timestamp":"2024-04-09 21:07:24"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:07:38"}
+{"level":"info","message":"Response sent with status code 500 in 28ms","timestamp":"2024-04-09 21:07:38"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:09:05"}
+{"level":"info","message":"Response sent with status code 200 in 12ms","timestamp":"2024-04-09 21:09:05"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:09:32"}
+{"level":"info","message":"Response sent with status code 500 in 36ms","timestamp":"2024-04-09 21:09:32"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:09:44"}
+{"level":"info","message":"Response sent with status code 500 in 30ms","timestamp":"2024-04-09 21:09:44"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:10:30"}
+{"level":"info","message":"Response sent with status code 500 in 22ms","timestamp":"2024-04-09 21:10:30"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:11:10"}
+{"level":"info","message":"Response sent with status code 200 in 1507ms","timestamp":"2024-04-09 21:11:12"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:11:23"}
+{"level":"info","message":"Response sent with status code 200 in 1152ms","timestamp":"2024-04-09 21:11:24"}
+{"level":"info","message":"Received GET request for /api/courses/","timestamp":"2024-04-09 21:12:21"}
+{"level":"info","message":"Response sent with status code 200 in 2192ms","timestamp":"2024-04-09 21:12:23"}
+{"level":"info","message":"Received POST request for /api/courses/","timestamp":"2024-04-09 21:12:29"}
+{"level":"info","message":"Response sent with status code 401 in 20ms","timestamp":"2024-04-09 21:12:29"}
+{"level":"info","message":"Received POST request for /api/users/register-superadmin","timestamp":"2024-04-09 21:17:29"}
+{"level":"info","message":"Response sent with status code 401 in 33ms","timestamp":"2024-04-09 21:17:29"}
+{"level":"info","message":"Received POST request for /api/users/login","timestamp":"2024-04-09 21:17:41"}
+{"level":"info","message":"Response sent with status code 200 in 2446ms","timestamp":"2024-04-09 21:17:43"}
+{"level":"info","message":"Received POST request for /api/courses/","timestamp":"2024-04-09 21:18:02"}
+{"level":"info","message":"Response sent with status code 401 in 7ms","timestamp":"2024-04-09 21:18:02"}
+{"level":"info","message":"Received POST request for /api/courses/","timestamp":"2024-04-09 21:18:13"}
+{"level":"info","message":"Response sent with status code 201 in 2382ms","timestamp":"2024-04-09 21:18:16"}
+{"level":"info","message":"Received POST request for /api/enrollments/","timestamp":"2024-04-09 21:19:02"}
+{"level":"info","message":"Response sent with status code 500 in 7ms","timestamp":"2024-04-09 21:19:02"}
+{"level":"info","message":"Received POST request for /api/enrollments/","timestamp":"2024-04-09 21:20:40"}
+{"level":"info","message":"Response sent with status code 201 in 2156ms","timestamp":"2024-04-09 21:20:42"}
+{"level":"info","message":"Received POST request for /api/enrollments/","timestamp":"2024-04-09 21:20:46"}
+{"level":"info","message":"Response sent with status code 400 in 324ms","timestamp":"2024-04-09 21:20:46"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:20:52"}
+{"level":"info","message":"Response sent with status code 200 in 840ms","timestamp":"2024-04-09 21:20:53"}
+{"level":"info","message":"Received POST request for /api/courses/","timestamp":"2024-04-09 21:21:13"}
+{"level":"info","message":"Response sent with status code 201 in 2271ms","timestamp":"2024-04-09 21:21:15"}
+{"level":"info","message":"Received POST request for /api/enrollments/","timestamp":"2024-04-09 21:21:22"}
+{"level":"info","message":"Response sent with status code 201 in 672ms","timestamp":"2024-04-09 21:21:23"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:21:27"}
+{"level":"info","message":"Response sent with status code 200 in 742ms","timestamp":"2024-04-09 21:21:27"}
+{"level":"info","message":"Received PUT request for /api/courses/clusk6qad0000c3ei076joscy","timestamp":"2024-04-09 21:21:48"}
+{"level":"info","message":"Response sent with status code 200 in 594ms","timestamp":"2024-04-09 21:21:49"}
+{"level":"info","message":"Received GET request for /api/enrollments/","timestamp":"2024-04-09 21:21:53"}
+{"level":"info","message":"Response sent with status code 200 in 798ms","timestamp":"2024-04-09 21:21:54"}
+{"level":"info","message":"Received GET request for /api/courses/","timestamp":"2024-04-09 22:21:41"}
+{"level":"info","message":"Response sent with status code 200 in 2096ms","timestamp":"2024-04-09 22:21:43"}
+{"level":"info","message":"Received GET request for /api/courses/?limit=1","timestamp":"2024-04-09 22:21:48"}
+{"level":"info","message":"Response sent with status code 200 in 147ms","timestamp":"2024-04-09 22:21:49"}
+{"level":"info","message":"Received GET request for /api/courses/","timestamp":"2024-04-09 22:21:52"}
+{"level":"info","message":"Response sent with status code 200 in 183ms","timestamp":"2024-04-09 22:21:53"}
+{"level":"info","message":"Received GET request for /api/courses/?popularity=4","timestamp":"2024-04-09 22:22:24"}
+{"level":"info","message":"Response sent with status code 500 in 184ms","timestamp":"2024-04-09 22:22:24"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-09 22:25:47"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-09 22:25:47"}
+{"level":"info","message":"Received GET request for /api/courses/?popularity=4","timestamp":"2024-04-09 22:26:00"}
+{"level":"info","message":"Response sent with status code 200 in 1224ms","timestamp":"2024-04-09 22:26:01"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 10:51:02"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 10:51:02"}
+{"level":"info","message":"Received POST request for /api/users/register","timestamp":"2024-04-10 10:51:18"}
+{"level":"info","message":"Response sent with status code 400 in 7ms","timestamp":"2024-04-10 10:51:18"}
+{"level":"info","message":"Received POST request for /api/users/register","timestamp":"2024-04-10 10:51:39"}
+{"level":"info","message":"Response sent with status code 201 in 1714ms","timestamp":"2024-04-10 10:51:40"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 10:55:02"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 10:55:02"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 10:55:06"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 10:55:06"}
+{"level":"info","message":"Received POST request for /api/users/register","timestamp":"2024-04-10 10:55:10"}
+{"level":"info","message":"Response sent with status code 400 in 1098ms","timestamp":"2024-04-10 10:55:11"}
+{"level":"info","message":"Received POST request for /api/users/register","timestamp":"2024-04-10 10:55:24"}
+{"level":"info","message":"Response sent with status code 201 in 538ms","timestamp":"2024-04-10 10:55:25"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:00:45"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:00:45"}
+{"level":"info","message":"Received POST request for /api/users/register","timestamp":"2024-04-10 11:00:55"}
+{"level":"info","message":"Response sent with status code 201 in 1971ms","timestamp":"2024-04-10 11:00:57"}
+{"level":"info","message":"Received POST request for /api/users/register","timestamp":"2024-04-10 11:02:21"}
+{"level":"info","message":"Response sent with status code 201 in 912ms","timestamp":"2024-04-10 11:02:22"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:07:39"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:07:39"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:08:59"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:08:59"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:09:23"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:09:23"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:10:15"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:10:15"}
+{"level":"info","message":"Received POST request for /api/users/register","timestamp":"2024-04-10 11:18:42"}
+{"level":"info","message":"Response sent with status code 201 in 3207ms","timestamp":"2024-04-10 11:18:45"}
+{"level":"info","message":"Received POST request for /api/users/register","timestamp":"2024-04-10 11:19:30"}
+{"level":"info","message":"Response sent with status code 201 in 896ms","timestamp":"2024-04-10 11:19:31"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:28:55"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:28:55"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:29:10"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:29:10"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:29:26"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:29:26"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:30:05"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:30:05"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:35:23"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:35:23"}
+{"level":"info","message":"Received POST request for /api/users/reset-password","timestamp":"2024-04-10 11:35:26"}
+{"level":"info","message":"Response sent with status code 200 in 2182ms","timestamp":"2024-04-10 11:35:28"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:38:00"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:38:00"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:39:45"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:39:45"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:40:28"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:40:28"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:40:51"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:40:51"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:43:33"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:43:33"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:43:41"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:43:41"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:44:01"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:44:01"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:44:31"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:44:31"}
+{"level":"info","message":"Received POST request for /api/users/reset-password","timestamp":"2024-04-10 11:44:43"}
+{"level":"info","message":"Response sent with status code 200 in 1394ms","timestamp":"2024-04-10 11:44:44"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:45:34"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:45:34"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:46:02"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:46:02"}
+{"level":"info","message":"Received POST request for /api/users/reset-password","timestamp":"2024-04-10 11:46:04"}
+{"level":"info","message":"Response sent with status code 200 in 1939ms","timestamp":"2024-04-10 11:46:06"}
+{"level":"info","message":"Received POST request for /api/users/update-password","timestamp":"2024-04-10 11:47:34"}
+{"level":"info","message":"Response sent with status code 404 in 4ms","timestamp":"2024-04-10 11:47:34"}
+{"level":"info","message":"Received PUT request for /api/users/update-password","timestamp":"2024-04-10 11:47:46"}
+{"level":"info","message":"Response sent with status code 400 in 13ms","timestamp":"2024-04-10 11:47:46"}
+{"level":"info","message":"Connected to the database","timestamp":"2024-04-10 11:47:58"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-10 11:47:58"}
+{"level":"info","message":"Received PUT request for /api/users/update-password","timestamp":"2024-04-10 11:48:12"}
+{"level":"error","message":"error from updatePassword controller","timestamp":"2024-04-10 11:48:12"}
+{"level":"info","message":"Response sent with status code 500 in 46ms","timestamp":"2024-04-10 11:48:12"}
+{"level":"info","message":"Received PUT request for /api/users/update-password","timestamp":"2024-04-10 11:48:23"}
+{"level":"info","message":"Response sent with status code 200 in 2547ms","timestamp":"2024-04-10 11:48:26"}
